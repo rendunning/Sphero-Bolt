@@ -1,0 +1,14 @@
+async function startProgram() {
+	// Programmer: Keegan Gallagher
+	// Program: Sphero Bolt
+	// Date: 5.25.23
+	// ID: SB-52F
+	 setMainLed({ r: 4, g: 200, b: 2 })
+     await roll(0, 100, 1.5);
+	 setMainLed({ r: 0, g: 0, b: 225 })
+	 stopRoll()
+	 await roll(90, 100, 1);
+	 stopRoll()
+	 await roll(90, 100, 0.5);
+}
+
