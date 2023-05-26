@@ -1,7 +1,8 @@
 async function startProgram() {
-	// Programmer: Keegan Gallagher
+	// Programmer: Lauren Dunning
+	// Partner: Keegan Gallagher
 	// Program: Sphero Bolt
-	// Date: 5.25.23
+	// Date: 5.26.23
 	// ID: SB-52F
 	 setMainLed({ r: 4, g: 200, b: 2 })
      await roll(0, 100, 1.5);
