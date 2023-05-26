@@ -4,12 +4,6 @@ async function startProgram() {
 	// Program: Sphero Bolt
 	// Date: 5.26.23
 	// ID: SB-52F
-	 setMainLed({ r: 4, g: 200, b: 2 })
-     await roll(0, 100, 1.5);
-	 setMainLed({ r: 0, g: 0, b: 225 })
-	 stopRoll()
-	 await roll(90, 100, 1);
-	 stopRoll()
-	 await roll(90, 100, 0.5);
+	 await scrollMatrixText('Start!', { r: 66, g: 56, b: 255 }, 30, true);
 }
 
