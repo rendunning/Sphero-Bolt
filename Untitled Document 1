@@ -9,5 +9,10 @@ async function startProgram() {
      	await roll(0, 50, 3.1);
      	await delay(2)
      	setMainLed({ r: 0, g: 0, b: 225 });
+	await delay(1)
+     	await roll(90, 50, 2);
+    	await delay(2);
+    	await speak('Hello World!', true);
+    	await delay(3)
 }
 
